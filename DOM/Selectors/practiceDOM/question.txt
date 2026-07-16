@@ -1,0 +1,6 @@
+Question 1 .
+Mini challenge: Create a “Select and style” page with 5 cards.
+Use querySelectorAll(".card") to select them, 
+then loop through them to change background color, text, 
+and add a click message in the console.
+
