@@ -1,0 +1,79 @@
+Select #box and change its text to your full name using innerText.
+
+2. Make #box visible through JavaScript:
+
+3. Change #box text color, background color, padding, and font size with JavaScript.
+
+4. Set this using innerText:
+"<h2>Hello World</h2>"
+
+5. Set the same value using innerHTML. What is different, and why?
+sol:
+Difference:
+
+myName.innerText = "<h2>Hello World</h2>";
+Shows the tags as plain text: <h2>Hello World</h2>
+
+
+myName.innerHTML = "<h2>Hello World</h2>";  Reads the string as HTML and creates an actual <h2> element.
+shows: Hello World
+
+Use innerText (or preferably textContent) for normal text. 
+Use innerHTML only when you deliberately need to insert HTML, 
+especially not with untrusted user input.
+
+Question 6.
+Add this to #box2 using innerHTML:   <strong>This text is bold.</strong>
+
+Question 7.**imp**
+Create a <button> through JavaScript, set its text to "Remove paragraph", and add it inside #parent.
+
+
+Question 8
+When that button is clicked, remove #box2 using:
+
+Question 9
+Create three <p> elements in JavaScript. Give them the text:
+“JavaScript”
+“DOM”
+“Practice”
+Append all three into #parent.
+
+Question 10: Create an <img> element using createElement(). Set its src, alt, width, and append it to #parent.
+
+Question 11
+Create a list:
+Create <ul>
+Create five <li> elements in a loop
+Put "Task 1" to "Task 5" inside them
+Append the list to #parent
+
+
+Question 12 
+Mini challenge: Dynamic profile card
+
+Using only JavaScript, create this structure inside #parent:
+
+<div class="profile-card">
+  <h2>Your Name</h2>
+  <p>Learning DOM manipulation</p>
+  <button>Change Background</button>
+</div>
+
+Requirements:
+Create every element using document.createElement().
+Add text using textContent.
+Add the elements using appendChild().
+On button click, change the card’s background color.
+Add another button that removes the complete profile card using .remove().
+
+
+parent
+ └── profileCard
+      ├── h2
+      ├── p
+      ├── Change Background button
+      └── Remove Profile button
+
+
+
