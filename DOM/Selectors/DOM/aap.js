@@ -3,7 +3,7 @@ const dabba = document.getElementById("box")
 
 const div = document.getElementById("box2")
 
-//console.dir() shows all property of ibject
+// console.dir() //shows all property of object
 // console.dir(dabba)
 
 // dabba.innerText = "Hello ji from js"
@@ -14,11 +14,11 @@ const div = document.getElementById("box2")
 
 //what is the difference b/w .innerText, .innerHTML, .textContent
 
-//dabba.innerText = "Hello World"
+// dabba.innerText = "Hello World"
 
 //i waana add a HTML tag inside  div 
-//dabba.innerText = "<h1>Hello World</h1>" //as a string append hoga 
-//dabba.innerHTML = "<h1>Hello World</h1>" // o/p: Hello World
+// dabba.innerText = "<h1>Hello World</h1>" //as a string append hoga 
+// dabba.innerHTML = "<h1>Hello World</h1>" // o/p: Hello World
 
 // console.log(dabba.innerText)
 // console.log(dabba.innerHTML)

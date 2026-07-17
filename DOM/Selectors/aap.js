@@ -13,15 +13,16 @@ console.log(myBtnusingTagName);
 const myBtnusingClass = document.getElementsByClassName("box")
 console.log(myBtnusingClass)
 
-//4. query Selector 
+//4. query Selector :#Id
 
 const myBtnusingQuerySelectorWithId = document.querySelector("#btn")
 console.log(myBtnusingQuerySelectorWithId)
 
-
+//querySelector() : .Class
 const myBtnusingQuerySelectorWithClass = document.querySelector(".box")
 console.log(myBtnusingQuerySelectorWithClass)
 
+//querySelector():tag
 
 const myBtnusingQuerySelectorWithTagName = document.querySelector("button")
 console.log(myBtnusingQuerySelectorWithTagName)
@@ -30,19 +31,22 @@ console.log(myBtnusingQuerySelectorWithTagName)
 const xyz = document.querySelector("#jgnfgs")
 console.log(xyz)
 
-//Query Selector All
+//Query Selector All : #Id
 
 const  QuerySelectorAllBtnWithId = document.querySelectorAll("#btn")
 console.log(QuerySelectorAllBtnWithId)
 
-
+//querySelecctorAll():with TagName
 const  QuerySelectorAllBtnWithTagName  =  document.querySelectorAll("button")
 console.log(QuerySelectorAllBtnWithTagName)
+
+
+//querySelctorAll():with .class
 
 const  QuerySelectorAllBtnWithClass = document.querySelectorAll(".box")
 console.log(QuerySelectorAllBtnWithClass)
 
- 
+//querySelectorAll() : when nothing match : return NodeLiat[]
 const abc = document.querySelectorAll(".duifhe")
 console.log(abc)
 
