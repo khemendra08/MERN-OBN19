@@ -1,14 +1,14 @@
 *{
-    margin: 0px;
+    margin :0px;
     padding: 0px;
 }
 
-#navBar{
+#navbar{
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
-    background-color: bisque;
-    color: white;
+    background-color: burlywood;
+    color:white;
 
 }
 
@@ -21,12 +21,9 @@
     height: 100vh;
 }
 
-#ip{
+#in{
     border: none;
     outline: none;
     padding: 8px;
     border-radius: 12px;
-
-
 }
-
