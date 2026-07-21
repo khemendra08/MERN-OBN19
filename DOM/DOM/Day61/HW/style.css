@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Counter Card */
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* Counter Display */
+#display {
+    font-size: 70px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Buttons Container */
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Common Button Style */
+button {
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Increment */
+#inc {
+    background: #28a745;
+    color: white;
+}
+
+#inc:hover {
+    background: #218838;
+}
+
+/* Reset */
+#res {
+    background: #ffc107;
+    color: black;
+}
+
+#res:hover {
+    background: #e0a800;
+}
+
+/* Decrement */
+#dec {
+    background: #dc3545;
+    color: white;
+}
+
+#dec:hover {
+    background: #c82333;
+}
+
+/* Click Effect */
+button:active {
+    transform: scale(0.95);
+}

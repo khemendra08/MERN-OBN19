@@ -1,0 +1,29 @@
+Visual Flow
+
+HTML
+
+<h1>10</h1>
+
+        │
+        ▼
+
+display.innerText
+        │
+        ▼
+
+"10" (String)
+        │
+Number()
+        ▼
+
+10 (Number)
+        │
+curr++
+        ▼
+
+11
+        │
+display.innerText = 11
+        ▼
+
+Screen par 11
