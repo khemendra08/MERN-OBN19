@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Dropdown -->
+     <form action="">
+        <select required name="COURSE" id="">
+            <option selected value=""></option>
+            <!-- Makes selecting an option mandatory when the <select> is inside a form. -->
+            <option value="Mern">MERN</option>
+            <option value="JAVA">JAVA</option>
+            <option value="DA">DA</option>
+        </select>
+
+        <div>
+            <label  for="male">Male</label>
+            <input value="male" name="gander" id="male" type="radio" >
+
+             <label for="female">Female</label>
+            <input value="female"  name="gender"  id="female" type="radio">
+
+             <label for="other">other</label>
+            <input value="other" name="gender" id="other" type="radio">
+        </div>
+
+        <div>
+            <label for="rt">Rating</label>
+            <input name="rating" min="1" max="5" type="range" id="rt">
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+     </form>
+    
+</body>
+</html>
