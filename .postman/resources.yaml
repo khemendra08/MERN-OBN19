@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: 2052693c-8fff-4f34-a605-dad8a024c10e
+
+localResources:
+  environments:
+    - ../BACKEND/postman/environments/New Environment.environment.yaml
