@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/api/todos/read
+method: GET
+order: 4344643180325382

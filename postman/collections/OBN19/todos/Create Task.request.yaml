@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:8080/api/todos/
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "title" : "Study",
+        "desc" : "Study javaScript"
+    }
+order: 1788933284919

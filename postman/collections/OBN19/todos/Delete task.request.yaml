@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/api/todos/a7fbe726-fec3-4f84-bfe0-cf929405dbca
+method: DELETE
+order: 4456902927825995
