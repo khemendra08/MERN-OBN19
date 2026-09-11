@@ -1,5 +1,4 @@
 
-
 const express = require("express")
 const router = express.Router()
 const {v4 : uuid} = require("uuid")
@@ -39,7 +38,7 @@ router.post("/", (req, res) => {
     }
 })
 
-router.get("/:id", (req, res) => {
+router.get("/", (req, res) => {
     try {
 
         res.json({
@@ -56,7 +55,7 @@ router.get("/:id", (req, res) => {
 
 })
 
-router.get("/", (req, res) =>{
+router.get("/:id", (req, res) =>{
 
     try {
         const id = req.params
